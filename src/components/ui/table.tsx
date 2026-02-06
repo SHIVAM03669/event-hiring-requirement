@@ -1,5 +1,6 @@
 "use client"
 
+// This file is part of the codebase
 import * as React from "react"
 
 import { cn } from "@/lib/utils"
