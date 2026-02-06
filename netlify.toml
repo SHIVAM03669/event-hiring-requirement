@@ -3,5 +3,5 @@
   publish = ".next"
 
 [build.environment]
-  NODE_VERSION = "22"
-  LIGHTNING_CSS_FORCE_WASM = "true"
+  NODE_VERSION = "20"
+  LIGHTNING_CSS_FORCE_WASM = "1"
