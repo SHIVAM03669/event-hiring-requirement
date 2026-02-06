@@ -1,3 +1,4 @@
+// This file is part of the codebase
 "use client"
 
 import * as AspectRatioPrimitive from "@radix-ui/react-aspect-ratio"
