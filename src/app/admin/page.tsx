@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { getAll, type Requirement } from "@/lib/db";
+
+export const dynamic = "force-dynamic";
 import {
   ArrowLeft,
   CalendarDays,
@@ -144,16 +146,16 @@ export default async function AdminPage() {
   return (
     <div className="min-h-screen bg-zinc-50 p-6">
       <div className="max-w-4xl mx-auto space-y-6">
-          <div>
-            <Link
-              href="/"
-              className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground mb-2"
-            >
-              <ArrowLeft className="h-4 w-4" /> Back to Home
-            </Link>
-            <h1 className="text-3xl font-bold tracking-tight">
-              Admin — Submissions
-            </h1>
+        <div>
+          <Link
+            href="/"
+            className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground mb-2"
+          >
+            <ArrowLeft className="h-4 w-4" /> Back to Home
+          </Link>
+          <h1 className="text-3xl font-bold tracking-tight">
+            Admin — Submissions
+          </h1>
           <p className="text-muted-foreground mt-1">
             {requirements.length} requirement{requirements.length !== 1 ? "s" : ""} submitted
           </p>
