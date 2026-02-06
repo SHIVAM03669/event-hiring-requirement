@@ -4,4 +4,3 @@
 
 [build.environment]
   NODE_VERSION = "20"
-  LIGHTNING_CSS_FORCE_WASM = "1"
